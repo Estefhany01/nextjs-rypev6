@@ -1,0 +1,38 @@
+html,
+body {
+  background-color: black;
+  background-image: url();
+}
+.conten {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.palabra {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 44%;
+  height: 50px;
+  width: 130px;
+  font-size: 29px;
+  border-radius: 20px;
+
+  transform: translate(-50% -50%);
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #1a1e21;
+}
+
+#fondo1 {
+  width: 1200px;
+  height: 590px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
